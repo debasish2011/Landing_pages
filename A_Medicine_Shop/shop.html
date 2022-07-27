@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy</title>
+    <link rel="stylesheet" href="/css_files/shop.css">
+    <link rel="stylesheet" href="/css_files/utilities.css">
+    <link rel="stylesheet" media="screen and (max-width:500px)" href="/css_files/phone_shop.css">
+</head>
+
+<body>
+    <nav id="navbar" class="flex space_between">
+        <div class="left flex center_content">
+            <a href="shop.html"><img src="/Images/logo.jpg" alt="#"></a>
+        </div>
+        <div class="middle flex align_center">
+            <div>
+                <a href="shop.html" class="no_text_decoration">Home</a>
+            </div>
+            <div>
+                <a href="about.html" class="no_text_decoration">About Us</a>
+            </div>
+        </div>
+        <div class="right flex align_center">
+            <div>
+                <ul class="flex no_list_style">
+                    <li id="signup"><a href="/" class="no_text_decoration">Sign Up</a></li>
+                    <li id="signin"><a href="/" class="no_text_decoration">Sign In</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="Search">
+                <button class="btnsearch btn" onclick="search()">Search</button>
+            </div>
+        </div>
+    </nav>
+    <div class="column_flex section">
+        <div class="content" id="section1">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, cum ipsum. Hic velit reiciendis maxime
+                molestias dolor expedita nobis, qui, recusandae repellendus cum omnis? Sit ipsa alias architecto nihil
+                porro, eum consequuntur accusantium autem quaerat sint ad esse, quo eveniet.</p>
+            <button class="btn btncontent"><a class="no_text_decoration" href="#">Order Now</a></button>
+        </div>
+        <div class="content" id="section2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, cumque at. Porro, aperiam culpa numquam,
+                veniam nobis, minus eaque necessitatibus temporibus enim vero incidunt? Dolorem, unde iste. Dolorem
+                repudiandae nobis, totam cum maxime quaerat tenetur libero tempora facere non assumenda necessitatibus
+                sint iste id sed voluptatem doloribus consectetur quibusdam quas laborum fuga. Ducimus debitis
+                consequatur tempora fuga tenetur. A, animi?</p>
+            <button class="btn btncontent"><a class="no_text_decoration" href="#">Book an appointment</a></button>
+        </div>
+        <div class="content" id="section3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ducimus voluptas ex quis animi maiores
+                sit aspernatur, nam quisquam dolores quaerat facere optio dolorum. Numquam in facere delectus corporis
+                quo!</p>
+            <button class="btn btncontent" onclick="showForm()" id="contact_us">Contact US</button>
+            <div class="column_flex display_none" id="form">
+                <input type="text" class="details text_center" id="fullName" placeholder="Name">
+                <input type="email" class="details text_center" id="email" placeholder="Email Id">
+                <input type="tel" class="details text_center" id="number" placeholder="Phone Number">
+                <input type="text" class="details text_center" id="concern" placeholder="Concern">
+                <button type="submit" class="btn submit" onclick="getInfo()">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="partners">
+        <p class="text_center">Our Partners</p>
+    </div>
+    <div class="partners flex center_content space_evenly">
+        <a href="#"><img src="/Images/partners/d-gced691dc7_1280.png" alt="#"></a>
+        <a href="#"><img src="/Images/partners/dentist-office-g8cb3d73d4_1280.jpg" alt="#"></a>
+        <a href="#"><img src="/Images/partners/icon-gcc011afee_1280.png" alt="#"></a>
+        <a href="#"><img src="/Images/partners/logo-gb2bb8ada5_1280.png" alt="#"></a>
+    </div>
+    <div class="end text_center">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit cumque, unde fuga accusantium expedita est quas
+            enim consequatur necessitatibus maiores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+            asperiores.</p>
+    </div>
+</body>
+<script src="/js_files/shop.js"></script>
+</html>

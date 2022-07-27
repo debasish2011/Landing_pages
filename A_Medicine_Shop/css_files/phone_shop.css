@@ -1,0 +1,33 @@
+#navbar{
+    flex-direction: column;
+    align-items: center;
+}
+
+.left{
+    margin: 5px 0px;
+}
+
+.middle{
+    margin: 5px 0px;
+}
+
+.right{
+    flex-direction: column;
+    margin: 5px 0px;
+}
+
+.right div{
+    margin: 5px 0px;
+}
+
+#section1{
+    margin: 10px 50px;
+}
+
+#section2{
+    margin: 10px 50px;
+}
+
+#section3{
+    margin: 10px 50px;
+}
